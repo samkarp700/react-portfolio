@@ -33,5 +33,9 @@ code {
     monospace;
 }
 
+html, 
+body {
+  height: 100%;
+}
 
 
