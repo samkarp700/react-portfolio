@@ -11,17 +11,6 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
-    colors: {
-      'orange': '#E65F5C',
-      'green': '#B5D99C',
-      'yellow': '#FFFF82',
-      'gray-light': 'F5F7DC',
-      'dark-purple': '0F0326',
-    },
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
     extend: {
       spacing: {
         '128': '32rem',
