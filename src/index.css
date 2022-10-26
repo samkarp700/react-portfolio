@@ -16,15 +16,15 @@ button,
 label, 
 textarea, 
 input{
-  font-family: 'Roboto', sans-serif;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }; 
 
-/* @layer base {
+@layer base {
   :root {
-    --green: 181, 217, 156;
-    --red: 230, 95, 92;
-    --yellow: 255, 255, 130;
-    --light: 245, 247, 220;
-    --dark: 15, 3, 38;
+    --green: rgb(181, 217, 156);
+    --red: rgb(230, 95, 92);
+    --yellow: rgb(255, 255, 130);
+    --light: rgb(245, 247, 220);
+    --dark: rgb(15, 3, 38);
   }
-} */
+}
