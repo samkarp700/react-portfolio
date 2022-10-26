@@ -1,25 +1,19 @@
-/** @type {import('tailwindcss').Config} */
+const { useEffect } = require('react');
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/components/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+    colors: {
+      green: 'rgb(var(--green)',
+      red: 'rgb(var(--red)',
+      yellow: 'rgb(var(--yellow)',
+      light: 'rgb(var(--light)',
+      dark: 'rgb(var(--dark)'
     },
-    extend: {
-      spacing: {
-        '128': '32rem',
-        '144': '36rem',
-      },
-      borderRadius: {
-        '4xl': '2rem',
-      }
-    }
-  }
+    extend: {},
+  },
+  plugins: [],
 }
-

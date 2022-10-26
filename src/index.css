@@ -1,41 +1,30 @@
-:root {
-  --primary: #B5D99C;
-  --secondary: #E65F5C;
-  --tertiary: #FFFF82;
-  --light: #F5F7DC;
-  --dark: #0F0326;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+p, 
+a, 
+span, 
+li, 
+button, 
+label, 
+textarea, 
+input{
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  max-width: 90%;
-  padding: 50px 30px;
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  line-height: 1.5;
-  font-size: 18px;
-  letter-spacing: .1em;
-  background: var(--light);
-  color: var(--dark);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-html, 
-body {
-  height: 100%;
-}
-
-
+/* @layer base {
+  :root {
+    --green: 181, 217, 156;
+    --red: 230, 95, 92;
+    --yellow: 255, 255, 130;
+    --light: 245, 247, 220;
+    --dark: 15, 3, 38;
+  }
+} */
