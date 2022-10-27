@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation({setPage, Contact, About, Projects}) {
     return (
-        <div className="flex flex-row bg-green grid justify-items-end">
+        <div className="flex flex-row bg-green grid justify-items-end rounded-lg">
             <ul className="flex-row p-8 ">
                 <li className="flex-1 w-24 hover:w-full italic hover:font-bold">
                     <a href="#about" onClick={() => setPage(<About/>)}>About Me </a>
