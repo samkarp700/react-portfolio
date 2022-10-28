@@ -4,4 +4,4 @@ In this application, I used React and TailwindCSS to build a responsive portfoli
 This is a work in progress and still under construction! 
 
 ## Check it out! 
-(Deployed application:)[http://samkarp700.github.io/react-portfolio] 
+[Deployed application:](http://samkarp700.github.io/react-portfolio) 
