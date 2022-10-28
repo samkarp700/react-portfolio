@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 //import header - with nav
 //import footer - links
@@ -13,22 +14,22 @@ function App() {
   const [page, setPage] = useState(<About/>);
 
   return (
-    <div class="bg-light">
+    <div>
     <Navigation
     setPage = {setPage}
     Contact = {Contact}
     About = {About}
     Projects = {Projects}
+    Resume = {Resume}
     >
     </Navigation>
-  <div class="bg-light mb-auto">
-  <div className="flex flex-col items-center">
-  <h1 className="text-4xl text-center">
-  </h1>
+  
   {page}
-  </div>
-  <Footer />
-  </div>
+  <Footer 
+  setPage = {setPage}
+  Contact = {Contact}
+  About = {About}
+  />
   </div>
   );
  }

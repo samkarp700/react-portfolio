@@ -4,7 +4,7 @@ import aboutImage from "../../assets/lights.jpg";
 
 function About() {
     return (
-        <section class="p-8">
+        <section class="p-8 bg-light mb-auto">
         <div class = "p-4 static">
         <h1 class="p-4 text-2xl italic tracking-wide text-dark" id="about">About Me</h1>
             <div class="grid grid-cols-2 gap-4 px-4">
