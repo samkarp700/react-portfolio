@@ -23,7 +23,6 @@ function App() {
     Resume = {Resume}
     >
     </Navigation>
-  
   {page}
   <Footer 
   setPage = {setPage}

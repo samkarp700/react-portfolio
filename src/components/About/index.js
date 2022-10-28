@@ -1,25 +1,31 @@
 import React from 'react';
-import aboutImage from "../../assets/lights.jpg";
+import aboutImage from "../../assets/me.jpeg";
 
 
 function About() {
     return (
-        <section class="p-8 bg-light mb-auto">
-        <div class = "p-4 static">
-        <h1 class="p-4 text-2xl italic tracking-wide text-dark" id="about">About Me</h1>
-            <div class="grid grid-cols-2 gap-4 px-4">
-                <img class="w-5/6 rounded-lg" src={aboutImage} alt="lights"></img>
-                <p class='leading-relaxed'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        <div class="bg-light">
+            <div class="md:py-5 xl:py-32 pb-10 md:p-0 p-5">
+                <div class="max-w-5xl mx-auto">
+                    <div class="lg:grid lg:grid-cols-2">
+                    <img class="w-fit h-96 rounded-lg" src={aboutImage} alt="author of page"></img>
+                    <div class="mt-8  md:py-0 pb-20">
+                        <h1 class="italic px-12 md:px-0 md:text-4xl text-2xl font-medium tracking-light md:space-y-2 pl-10 pb-6  md:pl-0">
+                            <span class="block">About Me</span>
+                        </h1>
+                        <p class='italic leading-relaxed'>
+                    Welcome to my portfolio. I began coding in the middle of 2022 when I enrolled in UCF's Full Stack Web Engineering Bootcamp. 
+                    I currently work as a customer success engineer where I am responsible for configuring and implementing clients into our platform. 
+                    My previous experience ranges from teaching to being a customer success manager as well as a self-taught vegan baker on the side. 
+                    I love to stretch my creativity by finding new and efficient ways to solve problems. 
+                    Take a look at my portfolio and resume for additional information about me and what I've worked on!
             </p>
+                    </div>
+                </div>
+                </div>
             </div>
-            </div>
-    
-
-        </section>
+        </div>
+        
     )
 }
 
