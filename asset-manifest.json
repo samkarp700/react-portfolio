@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cc4332c7.css",
-    "main.js": "/react-portfolio/static/js/main.67cfe6df.js",
+    "main.js": "/react-portfolio/static/js/main.b7b388f3.js",
     "static/media/social-thoughts.jpg": "/react-portfolio/static/media/social-thoughts.63f3dda3eab35f8fcd02.jpg",
     "static/media/book-nook.png": "/react-portfolio/static/media/book-nook.54ee6a9f007b3ea61268.png",
+    "static/media/booknook2.png": "/react-portfolio/static/media/booknook2.fb04d84db77ff2f7640c.png",
     "static/media/team-profile.jpg": "/react-portfolio/static/media/team-profile.be24f401e71dbb232f4e.jpg",
     "static/media/your-next-game.png": "/react-portfolio/static/media/your-next-game.3702deaccc9d798750ca.png",
     "static/media/me.jpeg": "/react-portfolio/static/media/me.7817a4187c313dc2cb50.jpeg",
@@ -11,10 +12,10 @@
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.e1fc8b9fa773c090b07f.png",
     "index.html": "/react-portfolio/index.html",
     "main.cc4332c7.css.map": "/react-portfolio/static/css/main.cc4332c7.css.map",
-    "main.67cfe6df.js.map": "/react-portfolio/static/js/main.67cfe6df.js.map"
+    "main.b7b388f3.js.map": "/react-portfolio/static/js/main.b7b388f3.js.map"
   },
   "entrypoints": [
     "static/css/main.cc4332c7.css",
-    "static/js/main.67cfe6df.js"
+    "static/js/main.b7b388f3.js"
   ]
 }
