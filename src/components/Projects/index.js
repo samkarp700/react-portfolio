@@ -5,6 +5,7 @@ import socialThoughts from '../../assets/social-thoughts.jpg';
 import teamProfile from '../../assets/team-profile.jpg';
 import workDay from '../../assets/work-day.png';
 import nextGame from '../../assets/your-next-game.png';
+import bookNook2 from '../../assets/booknook2.png';
 
 function Projects() {
     return (
@@ -16,13 +17,30 @@ function Projects() {
                      <a class="font-italic hover:font-bold text-xl" href="https://booknook-stars.herokuapp.com/">Book Nook </a>
                      </div>
                     <p class="text-dark text-base">
+                    Version 1 of this application was presents a user with seeded books using MySQL. 
                     This application is designed to provide a platform and community for parents 
                     and/or teachers of young readers. The main features of the application include account registration, access to database of books, 
                     and post comments reviewing the existing books.
                     The application was built using HTML, JavaScript, jQuery, Node.js, and MySQL.
+                    Can't wait for you to see version 2! 
                     </p>
                 </div>
                 </div>
+                <div class="rounded overflow-visible shadow-lg border-2 border-green">
+                <img class="w-full object-contain" src={bookNook2} alt="web application Book Nook v2"></img>
+                <div class="px-6 py-4">
+                    <div class="mb-2">
+                     <a class="font-italic hover:font-bold text-xl" href="https://book-nook2.herokuapp.com/">Book Nook Volume 2 </a>
+                     </div>
+                    <p class="text-dark text-base">
+                    Version 2 of this application is completely revamped from a UI perspective as well as the technologies used. 
+                    The application uses the full MERN stack giving the user the ability to create accounts, set and track reading goals, 
+                    search books using GoogleBooksAPI and save them to their reading list. Additionally, a user can add comments to books saved
+                    and find and add friends to their profile. 
+                    </p>
+                </div>
+                </div>
+
                 <div class="rounded overflow-visible shadow-lg border-2 border-green">
                 <img class="w-full object-contain" src={noteTaker} alt="note taking application"></img>
                 <div class="px-6 py-4">
